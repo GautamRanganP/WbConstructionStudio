@@ -15,7 +15,7 @@ const FooterBootStrap = () => {
                     marginLeft: '0px',
                     marginRight: '20px'
                 }}></ViewInArIcon>
-                <Link className="navbar-brand" style={{ padding: "0px", fontSize: "34px", fontWeight: "700" }} to="/">Your Brand</Link>
+                <Link className="navbar-brand" style={{ padding: "0px", fontSize: "34px", fontWeight: "700" }} to="WbConstructionStudio/">Your Brand</Link>
             </div>
             <div className='service-info'>
                 <h3>Our services</h3>

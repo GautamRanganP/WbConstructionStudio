@@ -22,7 +22,7 @@ const NavbarBootstrap = () => {
                             marginLeft: '0px',
                             marginRight: '5px',
                         }}></ViewInArIcon>
-                        <Link className="navbar-brand" style={{ padding: "0px",fontSize:"16px",fontWeight:"700"}} to="/">Your Brand</Link>
+                        <Link className="navbar-brand" style={{ padding: "0px",fontSize:"16px",fontWeight:"700"}} to="WbConstructionStudio/">Your Brand</Link>
                     </div>
                     <div style={{ flex: "1", justifyContent: "flex-end",display:"flex"}}>
                         <button className="navbar-toggler" style={{display:"flex",alignItems:"center",padding:"10px",borderRadius:"0px"}} onClick={handleToggle}>
@@ -36,15 +36,15 @@ const NavbarBootstrap = () => {
                         <div className="collaspe" >
                             <ul className="navbar-nav">
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='/'>Home</NavLink>
+                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/'>Home</NavLink>
                                 </li>
                                 <hr style={{margin:"0px"}}></hr>
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='/service'>Services</NavLink>
+                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/service'>Services</NavLink>
                                 </li>
                                 <hr style={{margin:"0px"}}></hr>
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='/portfolio'>Portfolio</NavLink>
+                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/portfolio'>Portfolio</NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -56,18 +56,18 @@ const NavbarBootstrap = () => {
                             marginLeft: '40px',
                             marginRight: '20px'
                         }}></ViewInArIcon>
-                        <Link className="navbar-brand" style={{ padding: "0px", fontSize: "24px", fontWeight: "700" }} to="/">Your Brand</Link>
+                        <Link className="navbar-brand" style={{ padding: "0px", fontSize: "24px", fontWeight: "700" }} to="WbConstructionStudio/">Your Brand</Link>
                     </div>
                     <div className="collaspe"  >
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='/'>Home</NavLink>
+                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/'>Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='/service'>Services</NavLink>
+                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/service'>Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='/portfolio'>Portfolio</NavLink>
+                                <NavLink className="nav-link" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/portfolio'>Portfolio</NavLink>
                             </li>
                         </ul>
                     </div>

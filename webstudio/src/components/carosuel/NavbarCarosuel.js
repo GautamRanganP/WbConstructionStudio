@@ -14,8 +14,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle'
 import './CarosuelBootstrap.css';
 
-//  "https://via.placeholder.com/1500x300/771796" 
-//  "https://via.placeholder.com/1500x300/24f355" 
+
 const NavbarCarosuel = () => {
     const [open, setOpen] = useState(false);
 
@@ -119,10 +118,6 @@ const NavbarCarosuel = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
                 <div className='wrap d-none d-lg-flex'>
-                    {/* <div className='carosuel-btn'>
-                    <button className='btn-over'>Buy Theme</button>
-                    <button className='btn-over'>Read More</button>
-                </div> */}
                     <div class="button-wrap">
                         <button class="carousel-control-prev prev-override" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
