@@ -19,9 +19,9 @@ function App() {
         <BrowserRouter>
           <NavbarBootstrap></NavbarBootstrap>
           <Routes>
-            <Route path='/' element={<HomePage/>} />
-            <Route path='/service' element={<ServicePage></ServicePage>}></Route>
-            <Route path='/portfolio' element={<PortfolioPage></PortfolioPage>}></Route>
+            <Route path='/WbConstructionStudio/' element={<HomePage/>} />
+            <Route path='/WbConstructionStudio/service' element={<ServicePage></ServicePage>}></Route>
+            <Route path='/WbConstructionStudio/portfolio' element={<PortfolioPage></PortfolioPage>}></Route>
           </Routes>
           <FooterBootStrap></FooterBootStrap>
         </BrowserRouter>
