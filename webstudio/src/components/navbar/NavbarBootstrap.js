@@ -36,15 +36,15 @@ const NavbarBootstrap = () => {
                         <div className="collaspe" >
                             <ul className="navbar-nav">
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/'>Home</NavLink>
+                                    <NavLink className="nav-line-mobile"  activeClassName="active" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/'>Home</NavLink>
                                 </li>
-                                <hr style={{margin:"0px"}}></hr>
+                                <hr className='mobile-break-line' style={{margin:"0px"}}></hr>
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/service'>Services</NavLink>
+                                    <NavLink className="nav-line-mobile"  activeClassName="active" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/service'>Services</NavLink>
                                 </li>
-                                <hr style={{margin:"0px"}}></hr>
+                                <hr className='mobile-break-line' style={{margin:"0px"}}></hr>
                                 <li className="nav-item-mobile">
-                                    <NavLink className="nav-line-mobile" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/portfolio'>Portfolio</NavLink>
+                                    <NavLink className="nav-line-mobile" activeClassName="active" style={{ fontWeight: "700", padding: "15px" }} to='WbConstructionStudio/portfolio'>Portfolio</NavLink>
                                 </li>
                             </ul>
                         </div>

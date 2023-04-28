@@ -12,7 +12,7 @@
   .nav-link {
     position: relative;
   }
-  
+
   .nav-link::after {
     content: '';
     position: absolute;
@@ -107,3 +107,17 @@
   margin-bottom: 30px;
 }
 
+.nav-line-mobile {
+  background-color: hsl(0, 0%, 93%);
+  color: #333333;
+  transition: background-color 0.2s linear, color 0.3s linear, box-shadow 0.3s linear;
+}
+
+.nav-line-mobile.active {
+  background-color: #333333;
+  color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.mobile-break-line{
+  border-color: #f3f2f2;
+}
