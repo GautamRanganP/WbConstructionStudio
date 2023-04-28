@@ -1,0 +1,133 @@
+.next-override,.prev-override{
+    top:unset;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(#666666, #5a5a5a);;
+}
+.prev-override{
+    left: 80px;
+    margin-right: 20px;
+}
+.next-override{
+    left: 160px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: transparent;
+    color: black;
+}
+.icon-wrap{
+    display: flex;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    position:absolute;
+    bottom: 20px;
+}
+.button-wrap{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.carosuel-content{
+    display: inline-flex;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.info-label{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #999999;
+    line-height: inherit;
+}
+.info-ans{
+    display: block;
+    margin-top: -2px;
+    font-size: 15px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #bbbbbb;
+}
+
+.carosuel-item{
+    position: relative;
+}
+.carosuel-btn{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    z-index: 10;
+}
+/* .btn-over:hover{
+    background-color: #666666;
+    color: white;
+} */
+.btn-over{
+    margin: 9px 8px 18px 0;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+    user-select:auto;
+    border: 1px solid transparent;
+    padding: 1.0625rem 1.8125rem;
+    font-size: 1rem;
+    line-height: 1.625;
+    
+}
+
+.carosuel-discription{
+    position:absolute;
+    width: 500px;
+    top: 120px;
+    left: 150px;
+    color: white;
+    text-align: start;
+}
+.carosuel-discription p{
+    flex-wrap:wrap;    
+}
+.icon-wrap-mobile{
+    display: flex;
+    margin: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    /* border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #999999; */
+}
+.bottom-line{
+    /* margin: 10px 0px; */
+    /* padding: 0px; */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablet devices go here */
+    .carosuel-discription{
+        width: 300px;
+        top: 70px;
+        left: 100px;
+    }
+    .carosuel-btn{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+    }
+    .content-carosuel{
+        margin-bottom: 20px;
+    }
+   
+  }

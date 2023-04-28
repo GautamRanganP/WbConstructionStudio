@@ -1,0 +1,20 @@
+
+.card{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    border: none;
+    text-align: start;
+}
+@media (max-width: 768px) { /* adjust breakpoint as needed */
+    .card{
+      margin: 20px 0px;  
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) { /* adjust breakpoint as needed */
+    .card{
+        width: 100%;
+    }
+  }

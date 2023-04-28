@@ -1,0 +1,57 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.wrapper p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.9;
+    color: #999999;
+    margin: 0.1875rem 0;
+    font-size: 0.875rem;
+    margin-left: 5px;
+}
+.service-info p{
+    margin: 10px 0px;
+    line-height: 1.9;
+    color: #999999;
+    margin: 0.1875rem 0;
+    font-size: 0.875rem;
+}
+.service-info h3,.contact-info h3{
+    font-size: 0.9375rem;
+    margin-bottom: 1.125rem;
+    text-transform: uppercase;
+}
+
+
+.footer{
+    background-color: #eeeeee;
+    position: relative;
+    bottom: 0px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.brand-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    margin-top:40px;
+}
+@media (max-width: 768px) {
+    .footer{
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+    .brand-icon{
+        margin-bottom: 20px;
+        margin-top:10px;
+    }
+    .service-info,.contact-info{
+        margin: 10px 0px;
+    }
+}
