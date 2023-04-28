@@ -55,6 +55,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .container.wrap-portfolio{
+    padding: 60px 50px;
+  }
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Styles for tablet devices go here */
     .card-content-grid-system {
@@ -67,13 +70,16 @@
       grid-template-columns: 1fr;
       gap: 20px 20px;
     }
-    .content{
+    .container.wrap-portfolio{
+      padding: 60px 30px;
+    }
+    /* .content{
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
+    } */
   }
   
   @media (max-width: 480px) { /* adjust breakpoint as needed */
