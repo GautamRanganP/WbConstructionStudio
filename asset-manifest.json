@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WbConstructionStudio/static/css/main.cf2df21d.css",
+    "main.js": "/WbConstructionStudio/static/js/main.b6c68e52.js",
+    "static/js/787.7af91edb.chunk.js": "/WbConstructionStudio/static/js/787.7af91edb.chunk.js",
+    "index.html": "/WbConstructionStudio/index.html",
+    "main.cf2df21d.css.map": "/WbConstructionStudio/static/css/main.cf2df21d.css.map",
+    "main.b6c68e52.js.map": "/WbConstructionStudio/static/js/main.b6c68e52.js.map",
+    "787.7af91edb.chunk.js.map": "/WbConstructionStudio/static/js/787.7af91edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf2df21d.css",
+    "static/js/main.b6c68e52.js"
+  ]
+}
